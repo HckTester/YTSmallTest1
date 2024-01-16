@@ -27,6 +27,7 @@ public class Home_Page {
 	
 	
 	public void Click_Trending_section() throws Exception {
+		Thread.sleep(7000);
 		WebElement trends = driver.findElement(By.xpath(pr.getProperty("Trending_section")));
 		trends.click();	
 	}
